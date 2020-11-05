@@ -1,0 +1,14 @@
+<repo>
+	<footerlinks>
+		<link>
+			<name>Check out my website</name>
+			<url>https://contejus.github.io</url>
+			<iconclass>fa fa-website</iconclass>
+		</link>
+		<link>
+			<name>I want this depiction template</name>
+			<url>https://github.com/contejus/repo</url>
+			<iconclass>fa fa-thumbs-up</iconclass>
+		</link>
+	</footerlinks>
+</repo>

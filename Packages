@@ -1,0 +1,120 @@
+Package: com.binksalex.littlexs
+Version: 2.4.3
+Architecture: iphoneos-arm
+Maintainer: Ryan Nair
+Installed-Size: 224
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.binksalex.fluidify, com.vitataf.homegesture, com.VitaTaf.HomeGesture, com.ioscreatix.littlex
+Replaces: com.binksalex.fluidify, com.vitataf.homegesture, com.VitaTaf.HomeGesture, com.ioscreatix.littlex
+Provides: com.ryannair05.poseidon, com.ryannair05.poseidon-rounded, com.VitaTaf.HomeGesture, com.ioscreatix.littlex, com.duraidabdul.neptune
+Filename: debs/com.binksalex.littlexs_2.4.3_iphoneos-arm.deb
+Size: 16554
+MD5sum: f24203278449d9efd1c810d5f8d3a7f2
+SHA1: 587764e946fd6bba0ce7387a4adeb95eb97219a6
+SHA256: eca0180eaa2e093e1c5f9c27a0a58541ecfcbffa8e307feeff299f85eef3ad4e
+Section: Tweaks
+Description: LittleX revitalized for iOS 12.
+Author: Ryan Nair & binksalex
+Name: LittleXS
+
+Package: com.contejus.moderndock
+Version: 1.0.0-contejus
+Architecture: iphoneos-arm
+Maintainer: NoisyFlake, contejus
+Installed-Size: 88
+Depends: mobilesubstrate
+Filename: debs/com.contejus.moderndock_1.0.0-contejus_iphoneos-arm.deb
+Size: 1956
+MD5sum: e4bcfdadcddb37e706fc3d4f2fc1c0e3
+SHA1: 9b97f5b10924b69124f240069b85251ac1ec6143
+SHA256: 9076df3ba9f21e7f33f954a18e649378fe86d5ffb81a3076cb738171048978f5
+Section: Tweaks
+Description: Enables the native iPhone X dock on older devices
+Author: NoisyFlake
+Depiction: https://apt.noisyflake.com/depictions/index.html?id=com.noisyflake.moderndock
+Name: ModernDock
+
+Package: com.contejus.quitall
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: Dave van Wijk, contejus
+Installed-Size: 400
+Depends: mobilesubstrate, ws.hbang.common (>= 1.11)
+Filename: debs/com.contejus.quitall_1.0.2_iphoneos-arm.deb
+Size: 198522
+MD5sum: 80a9e909ea1d7c0b6c450ff4ad625151
+SHA1: 950d4437bcf122f6808ae190881b94701e5d8e2e
+SHA256: c1e9a64a153735e0454b5913ec0fde50fd59999a1295376a5cfbd8f30cb23921
+Section: Tweaks
+Description: One tweak to quit them all (modified to work on iOS 12 by contejus)
+Author: Dave van Wijk
+Name: QuitAll
+
+Package: com.contejus.sliderchanger
+Version: 0.0.2-3+debug
+Architecture: iphoneos-arm
+Maintainer: contejus
+Installed-Size: 248
+Depends: mobilesubstrate
+Filename: debs/com.contejus.sliderchanger_0.0.2-3+debug_iphoneos-arm.deb
+Size: 8716
+MD5sum: 4172938d8165a277abc82f8c8929dc78
+SHA1: eb6e37cc2176ab3275294489b1ded51e3f5b4b2d
+SHA256: 6b5ff985efe773c9722a2d1eb728e05545992f412782febea9634b6092392cf4
+Section: Tweaks
+Description: Changes lockscreen "Press home to unlock" text.
+Author: contejus
+Name: SliderChanger
+
+Package: com.contejus.test
+Version: 0.0.1-16+debug
+Architecture: iphoneos-arm
+Maintainer: contejus
+Installed-Size: 116
+Depends: mobilesubstrate
+Filename: debs/com.contejus.test_0.0.1-16+debug_iphoneos-arm.deb
+Size: 3776
+MD5sum: c461858ae8082aa9d811091786d1cd1b
+SHA1: b513dd4f65bbc4652d51a739ec2b5fbeeee2ab90
+SHA256: 06c20faa2131f0d26986b37adf10800e9c69c0cce428a39507f470fc24be344b
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: contejus
+Name: Test
+
+Package: com.contejus.willow
+Version: 1.2.12
+Architecture: iphoneos-arm
+Maintainer: Ayden Panhuyzen
+Installed-Size: 464
+Depends: mobilesubstrate, firmware (>= 11.0), preferenceloader
+Conflicts: com.ruler225.videohud, com.spark.melior, net.midkin.smartvolumecontrol2, es.ubikstyl.sonus12, me.nepeta.brokenhud, me.nepeta.flashyhud, hi.my.name.is.ubik.sonus13, com.ikilledappl3.switchhud, com.muirey03.13hud, com.kingpuffdaddi.ringer13
+Filename: debs/com.contejus.willow_1.2.12_iphoneos-arm.deb
+Size: 138394
+MD5sum: d9ddf48e22b81530e3f5fe27a55e06ad
+SHA1: fb2b4c7e618eed95c4387135dd5889613a948a8d
+SHA256: 64eb82ced88d39af8c0fbee7fa2db18851bd71d9b0750c18b1b9f1838a136f2e
+Section: Tweaks
+Description: A brand-new, unobtrusive, OLED-friendly volume HUD.
+Author: Ayden Panhuyzen
+Name: Ultrasound
+
+Package: essential
+Version: 0-999
+Architecture: iphoneos-arm
+Essential: yes
+Maintainer: wizages <wizagesmax@gmail.comm>
+Installed-Size: 8
+Pre-Depends: bootstrap | dpkg (>= 1.13.25-5)
+Depends: cydia | com.ripdev.icy | xyz.willy.zebra | org.coolstar.SileoStore, cy+model.iphone (<< 11.0) | cy+model.ipad (<< 11.0) | cy+model.ipod | science.xnu.substituted, cy+model.iphone (<< 11.0) | cy+model.ipad (<< 11.0) | cy+model.ipod | com.ex.substitute
+Filename: debs/essential_0-999_iphoneos-arm.deb
+Size: 1160
+MD5sum: f7bc2b5410235ed1707c956c3327ad50
+SHA1: 26440170fbab347fa89449efdca992a2b3378bf8
+SHA256: f2719e2459d3cca3879a5361b3e0f60aefac50c08015b3ada0f057cf0fb1ff95
+Section: System
+Priority: required
+Description: contains nothing, represents everything
+Depiction: http://cydia.saurik.com/info/essential/
+Name: Essential
+
